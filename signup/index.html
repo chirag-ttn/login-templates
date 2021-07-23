@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple registration form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="main-block">
+      <h1>SignUp</h1>
+      <form action="/">
+        <hr>
+        <div class="account-type">
+          <input type="radio" value="none" id="radioOne" name="account" checked/>
+          <label for="radioOne" class="radio">KYC</label>
+          <input type="radio" value="none" id="radioTwo" name="account" />
+          <label for="radioTwo" class="radio">KYC-LITE</label>
+          <input type="radio" value="none" id="radioThree" name="account" />
+          <label for="radioThree" class="radio">NULL</label>
+        </div>
+        <hr>
+        <label id="icon" for="email"><i class="fas fa-envelope"></i></label>
+        <input type="text" name="email" id="email" placeholder="Email" required/>
+        <label id="icon" for="firstname"><i class="fas fa-user"></i></label>
+        <input type="text" name="firstname" id="firstname" placeholder="FirstName" required />
+        <label id="icon" for="lastname"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="lastname" id="lastname" placeholder="LastName" required/>
+        
+        <!--Adress-->
+        <label id="icon" for="city"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="city" id="city" placeholder="CITY" />
+        <label id="icon" for="zip"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="zip" id="zip" placeholder="zip" />
+        <label id="icon" for="state"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="state" id="state" placeholder="state" />
+        <label id="icon" for="address"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="address" id="address" placeholder="address" />
+        <label id="icon" for="addressAlias"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="addressAlias" id="addressAlias" placeholder="addressAlias" />
+        
+        <!-- Contact -->
+        <label id="icon" for="contactAlias"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="contactAlias" id="contactAlias" placeholder="Contact Alias" />
+        <label id="icon" for="phone"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="phone" id="phone" placeholder="Phone" />
+        <!-- Additional -->
+        <label id="icon" for="DOB"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="DOB" id="DOB" placeholder="Date Of  Birth" />
+        <label id="icon" for="entityName"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="entityName" id="entityName" placeholder="entity name" />
+        <label id="icon" for="merchantauth"><i class="fas fa-unlock-alt"></i></label>
+        <input type="text" name="merchantauth" id="merchantauth" placeholder="merchantAuth" />
+        
+        
+        
+        
+        <div class="btn-block">
+        
+          <button type="submit" href="/">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
